@@ -1,9 +1,10 @@
+import { Route } from 'react-router-dom';
 
 function App() {
   
   return (
     <>
-      MainPage
+      <Route to="HomePage"></Route>
     </>
   )
 }
