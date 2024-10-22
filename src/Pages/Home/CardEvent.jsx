@@ -10,6 +10,8 @@ import screw from "./img/screw.svg";
 
 import logo from "../../Shared/Images/Header.svg";
 
+import '../../Shared/UI/Wrapper.scss'
+
 function Card() {
   return (
     <div className="slider-cards-card">
@@ -22,7 +24,7 @@ function Card() {
 
 function BigBlock() {
   return (
-    <div className="bigBlock">
+    <div className="bigBlock Wrapper">
       <div className="bigBlock-images">
         <img src={bigBlockImg} />
         <img src={bigBlockImg} />
@@ -55,7 +57,7 @@ function BigBlock() {
 }
 function BigBlockReverse() {
   return (
-    <div className="bigBlock" style={{ flexDirection: "row-reverse" }}>
+    <div className="bigBlock Wrapper"  style={{ flexDirection: "row-reverse" }}>
       <div className="bigBlock-images">
         <img src={bigBlockImg} />
         <img src={bigBlockImg} />
@@ -91,7 +93,7 @@ function BigBlockReverse() {
 
 function InfoBlock() {
   return (
-    <div className="InfoBlock">
+    <div className="InfoBlock Wrapper">
       <div className="InfoBlock-img">
         <img src={InfoImg} />
       </div>
@@ -111,7 +113,7 @@ function InfoBlock() {
 
 function InfoBlockReverse() {
   return (
-    <div className="InfoBlock" style={{ flexDirection: "row-reverse" }}>
+    <div className="InfoBlock Wrapper" style={{ flexDirection: "row-reverse" }}>
       <div className="InfoBlock-img">
         <img src={InfoImg} />
       </div>
@@ -133,7 +135,7 @@ function InfoBlockReverse() {
 
 function ServicesTab() {
   return (
-    <div className="Service">
+    <div className="Service Wrapper">
       <h1>УСЛУГИ</h1>
       <div className="Service-list">
         <div className="Service-list-service">
@@ -159,7 +161,7 @@ function ServicesTab() {
 
 function PartnersTab() {
   return (
-    <div className="Partners">
+    <div className="Partners Wrapper">
       <h1>ПАРТНЕРЫ</h1>
       <div className="Partners-list">
         <div className="Partners-list-partners">
