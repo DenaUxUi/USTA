@@ -1,8 +1,4 @@
-* {
-  margin: 0px;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 .home {
   .main-screen {
@@ -189,6 +185,7 @@
       letter-spacing: -0.04em;
       text-align: left;
     }
+
     &-list {
       display: flex;
       gap: 75px 150px;
