@@ -9,11 +9,13 @@ import Events from '../Pages/Events/Events';
 import Membership from '../Pages/Membership/Membership';
 import Participation from '../Pages/Participation/Participation';
 import Services from '../Pages/Services/Services';
+import './App.scss'
 
 function App() {
   
   return (
     <BrowserRouter>
+      <Header />
       <Header />
       <Routes>
         <Route path='/' element={<Home/>}/>
